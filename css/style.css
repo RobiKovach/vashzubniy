@@ -258,7 +258,8 @@ body::after {
 }
 @supports (padding:env(safe-area-inset-top)) {
   .header {
-    padding-top: calc(env(safe-area-inset-top) + 10px)
+    padding-top: calc(env(safe-area-inset-top) + 12px);
+    background: #006e8b
   }
 }
 body,
