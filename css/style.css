@@ -261,6 +261,10 @@ body::after {
     padding-top: calc(env(safe-area-inset-top) + 10px)
   }
 }
+body,
+html {
+  background-color: rgba(0,110,139,.9607843137)
+}
 .header {
   position: fixed;
   width: 100%;
