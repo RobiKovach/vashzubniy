@@ -1686,7 +1686,7 @@ body::after {
   }
   .menu-open .menu__body {
     left: 0;
-    background: url(img/menu-background.webp) no-repeat center;
+    background: url(../img/menu-background.webp) no-repeat center;
     background-size: cover
   }
   .menu-open .menu__body::before {
