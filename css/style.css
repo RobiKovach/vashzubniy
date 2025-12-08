@@ -257,9 +257,9 @@ body::after {
   background: rgba(0,110,139,.9607843137)
 }
 @supports (padding:env(safe-area-inset-top)) {
-  .header {
+  ._header-scroll {
     padding-top: calc(env(safe-area-inset-top) + 12px);
-    background: #006e8b
+    background: rgba(0,110,139,.9607843137)
   }
 }
 body,
@@ -1872,6 +1872,7 @@ html {
   .btn-consult {
     font-size: 14px;
     font-style: normal;
+    line-height: normal;
     padding: 14.5px 28px
   }
   .btn-call {
@@ -1896,7 +1897,8 @@ html {
   }
   .hero__container {
     padding-top: 108px;
-    padding-bottom: 56px
+    padding-bottom: 56px;
+    row-gap: 20px
   }
   .content-hero__banner {
     height: 386px
