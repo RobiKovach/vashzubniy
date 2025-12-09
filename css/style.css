@@ -2673,15 +2673,18 @@ html {
   .video-comments__slider {
     display: none
   }
+  .video-comments-thumbs__slider {
+    height: 248px
+  }
   .video-comments-thumbs__slider .swiper-slide {
     opacity: 1
   }
   .video-comments-swiper-button-prev {
-    top: 35%;
+    top: 42%;
     left: 0
   }
   .video-comments-swiper-button-next {
-    top: 35%;
+    top: 42%;
     right: 0
   }
 }
