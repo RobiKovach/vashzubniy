@@ -673,14 +673,15 @@ html {
   background-size: cover
 }
 .hero__container {
-  padding-top: 130px;
+  padding-top: 125px;
   display: flex;
   flex-direction: column;
-  row-gap: 36px;
+  row-gap: 30px;
   padding-bottom: 165px
 }
 .hero__title {
-  color: #fff
+  color: #fff;
+  font-size: 70px
 }
 .hero__content {
   position: relative
@@ -708,7 +709,8 @@ html {
   left: 32px
 }
 .info-hero__text {
-  color: #fff
+  color: #fff;
+  width: 503px
 }
 .info-hero__btn:hover {
   color: #fff
@@ -752,6 +754,9 @@ html {
   align-items: flex-start;
   gap: 20px
 }
+.left-trust__title {
+  width: 459px
+}
 .left-trust__card {
   display: flex;
   flex-direction: column;
@@ -760,6 +765,10 @@ html {
   background: #fff;
   box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
   padding: 32px
+}
+.left-trust__card-about {
+  row-gap: 25px;
+  padding-bottom: 52px
 }
 .card-trust__info {
   display: flex;
@@ -845,6 +854,12 @@ html {
   z-index: 1;
   width: 283px
 }
+.right-trust__text-about {
+  padding: 18px 10px 17px 20px
+}
+.right-trust__text-about p {
+  width: 325px
+}
 .right-trust__right {
   display: flex;
   flex-direction: column;
@@ -877,6 +892,9 @@ html {
   position: relative;
   z-index: 1;
   width: 242px
+}
+.right-trust__text2-about p {
+  width: 282px
 }
 .right-trust__imgpc2 {
   display: flex;
@@ -1081,6 +1099,9 @@ html {
   opacity: .9;
   z-index: 0
 }
+.content-programs__packet-about {
+  padding: 56px 24px 79px 27px
+}
 .content-programs__banner {
   position: relative;
   background: url(../img/packet-banner-bg.webp) no-repeat center;
@@ -1141,6 +1162,10 @@ html {
   opacity: .9;
   z-index: 0
 }
+.content-programs__packetfamily-about {
+  padding: 53px 22px 53px 20px;
+  height: 240px
+}
 .packet-programs__info {
   display: flex;
   flex-direction: column;
@@ -1175,6 +1200,9 @@ html {
   font-weight: 400;
   line-height: 24px;
   width: 454px
+}
+.packet-programs__description-about {
+  width: 556px
 }
 .packet-programs__link {
   position: relative;
@@ -1641,6 +1669,87 @@ html {
 .bot-packet__btn:hover {
   color: #fff
 }
+.doctors__container {
+  margin-top: 114px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 42px
+}
+.doctors__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between
+}
+.doctors__titles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px
+}
+.doctors__subtitle {
+  width: 557px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px
+}
+.doctors__slider {
+  position: relative
+}
+.doctors__wrapper {
+  padding-bottom: 3px;
+  padding-left: 2px
+}
+.doctors__slide {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,.15)
+}
+.doctors__navigations {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 51%;
+  left: -3px
+}
+.doctors-slide__image {
+  width: 413px;
+  height: 320px;
+  display: flex;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top
+}
+.doctors-slide__info {
+  padding: 26px 23px 26px 26px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px
+}
+.info-doctors__titles {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px
+}
+.info-doctors__name {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px
+}
+.info-doctors__expirience {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px
+}
+.info-doctors__descriptions {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px
+}
 .swiper {
   overflow: hidden
 }
@@ -1944,6 +2053,9 @@ html {
     margin: 0 12px;
     row-gap: 16px
   }
+  .info-hero__text {
+    width: 280px
+  }
   .info-hero__btn {
     font-weight: 500
   }
@@ -1963,9 +2075,16 @@ html {
     flex-direction: column;
     row-gap: 12px
   }
+  .left-trust__title {
+    width: 289px
+  }
   .left-trust__card {
     padding: 24px 15px 21px 22px;
     row-gap: 22px
+  }
+  .left-trust__card-about {
+    row-gap: 12px;
+    padding: 24px 11px 21px 22px
   }
   .card-trust__description {
     font-size: 16px
@@ -2023,6 +2142,9 @@ html {
     border-radius: 8px;
     padding: 22px 32px 22px 20px
   }
+  .right-trust__text-about p {
+    width: 283px
+  }
   .right-trust__right {
     width: 100%
   }
@@ -2039,6 +2161,9 @@ html {
   .right-trust__text2 {
     padding: 24px 26px 23px 20px;
     border-radius: 8px
+  }
+  .right-trust__text2-about p {
+    width: 289px
   }
   .right-trust__imgpc2 {
     display: none
@@ -2141,6 +2266,9 @@ html {
     row-gap: 34px;
     padding: 24px 20px
   }
+  .content-programs__packet-about {
+    padding: 40px 5px 40px 20px
+  }
   .content-programs__banner {
     row-gap: 1px;
     padding: 14px 20px 17px;
@@ -2151,9 +2279,17 @@ html {
     font-weight: 700;
     line-height: 34px
   }
+  .content-programs__numbertext {
+    font-size: 16px;
+    line-height: 20px
+  }
   .content-programs__packetfamily {
     row-gap: 34px;
     padding: 32px 20px 25px
+  }
+  .content-programs__packetfamily-about {
+    padding: 40px 6px 40px 20px;
+    height: auto
   }
   .packet-programs__info {
     row-gap: 16px
@@ -2171,6 +2307,9 @@ html {
   .packet-programs__description {
     font-size: 16px;
     line-height: 20px;
+    width: 100%
+  }
+  .packet-programs__description-about {
     width: 100%
   }
   .packet-programs__link {
@@ -2411,6 +2550,52 @@ html {
   }
   .bot-packet__btn {
     padding: 14.5px 37px
+  }
+  .doctors__container {
+    margin-top: 62px;
+    row-gap: 22px
+  }
+  .doctors__titles {
+    row-gap: 8px
+  }
+  .doctors__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%
+  }
+  .doctors__navigations {
+    top: 49%;
+    left: 0
+  }
+  .doctors__mobbtn {
+    display: flex;
+    align-items: flex-start;
+    width: 100%
+  }
+  .doctors-slide__image {
+    width: 302px;
+    height: 215px;
+    -o-object-position: top center;
+    object-position: top center
+  }
+  .doctors-slide__info {
+    row-gap: 16px;
+    padding: 20px 15px 28px 20px
+  }
+  .info-doctors__titles {
+    row-gap: 10px
+  }
+  .info-doctors__name {
+    font-size: 20px;
+    line-height: 24px
+  }
+  .info-doctors__expirience {
+    font-size: 16px;
+    line-height: 20px
+  }
+  .info-doctors__descriptions {
+    font-size: 14px;
+    line-height: 18px
   }
 }
 @media (max-width:47.99875em)and (any-hover:none) {

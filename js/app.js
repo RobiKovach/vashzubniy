@@ -3845,6 +3845,41 @@
                 },
                 on: {}
             });
+            new swiper_core_Swiper(".doctors__slider", {
+                modules: [ Navigation ],
+                observer: true,
+                observeParents: true,
+                slidesPerView: 3.1,
+                spaceBetween: 20,
+                speed: 800,
+                navigation: {
+                    prevEl: ".swiper-button-prev-doctors",
+                    nextEl: ".swiper-button-next-doctors"
+                },
+                breakpoints: {
+                    375: {
+                        slidesPerView: 1.2,
+                        spaceBetween: 16
+                    },
+                    640: {
+                        slidesPerView: 1.3,
+                        spaceBetween: 16
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    },
+                    1268: {
+                        slidesPerView: 3.1,
+                        spaceBetween: 20
+                    }
+                },
+                on: {}
+            });
         }
     }
     window.addEventListener("load", function(e) {
