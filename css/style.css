@@ -1718,8 +1718,8 @@ html {
   display: flex;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: top;
-  object-position: top
+  -o-object-position: 0 -90px;
+  object-position: 0 -90px
 }
 .doctors-slide__info {
   padding: 26px 23px 26px 26px;
@@ -2642,8 +2642,8 @@ html {
   .doctors-slide__image {
     width: 302px;
     height: 215px;
-    -o-object-position: top center;
-    object-position: top center
+    -o-object-position: 0 -70px;
+    object-position: 0 -70px
   }
   .doctors-slide__info {
     row-gap: 16px;

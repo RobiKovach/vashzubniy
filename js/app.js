@@ -4056,8 +4056,7 @@
                     navigation: {
                         nextEl: ".video-comments-swiper-button-next",
                         prevEl: ".video-comments-swiper-button-prev"
-                    },
-                    allowTouchMove: false
+                    }
                 });
             }
             initVideoSliders();
