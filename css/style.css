@@ -1841,7 +1841,7 @@ html {
 }
 @media (max-width:768px) {
   .video-comments-videosmall {
-    pointer-events: auto!important
+    pointer-events: none!important
   }
 }
 @media (max-width:47.99875em) {
