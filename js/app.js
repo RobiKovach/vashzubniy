@@ -4027,9 +4027,17 @@
                 },
                 on: {}
             });
-            let videoThumbs;
-            let videoMain;
+            let videoThumbs = null;
+            let videoMain = null;
             function initVideoSliders() {
+                if (videoThumbs) {
+                    videoThumbs.destroy(true, true);
+                    videoThumbs = null;
+                }
+                if (videoMain) {
+                    videoMain.destroy(true, true);
+                    videoMain = null;
+                }
                 if (window.innerWidth > 768) {
                     videoThumbs = new swiper_core_Swiper(".video-comments-thumbs__slider", {
                         modules: [ Navigation, Thumb ],
@@ -4049,19 +4057,24 @@
                             swiper: videoThumbs
                         }
                     });
-                } else new swiper_core_Swiper(".video-comments-thumbs__slider", {
+                } else videoThumbs = new swiper_core_Swiper(".video-comments-thumbs__slider", {
                     modules: [ Navigation ],
                     slidesPerView: 1,
                     spaceBetween: 16,
                     navigation: {
                         nextEl: ".video-comments-swiper-button-next",
                         prevEl: ".video-comments-swiper-button-prev"
-                    }
+                    },
+                    initialSlide: 1
                 });
             }
             initVideoSliders();
+            let resizeTimeout;
             window.addEventListener("resize", () => {
-                initVideoSliders();
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(() => {
+                    initVideoSliders();
+                }, 200);
             });
         }
     }
