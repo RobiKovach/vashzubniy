@@ -1,0 +1,996 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Ціни</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20251210152929" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#006e8b" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="#006e8b" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="100" class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo">
+					<img src="img/logo.webp" alt="logo" class="header__logoimg" />
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item menu__item--has-children">
+								<button class="menu__link menu__link--dropdown">
+									<img src="img/icon-arrowdown.svg" alt="" class="menu__icon icon-arrow" />
+									<span class="menu__text">Послуги</span>
+								</button>
+								<ul class="menu__dropdown">
+									<li><a href="">Імплантація</a></li>
+									<li><a href="">Пародонтологія</a></li>
+									<li><a href="">Протезування</a></li>
+									<li><a href="">Професійна гігієна</a></li>
+									<li><a href="">Лікування зубів</a></li>
+									<li><a href="">Лікування зубів</a></li>
+									<li><a href="">Вініри</a></li>
+									<li><a href="">Відбілювання зубів</a></li>
+									<li><a href="">Виправлення прикусу</a></li>
+									<li><a href="">Дитяча стоматологія</a></li>
+									<li><a href="">Гнатологія</a></li>
+									<li><a href="">Видалення зубів</a></li>
+								</ul>
+							</li>
+							<li class="menu__item">
+								<a href="price.html" class="menu__link">Ціни</a>
+							</li>
+							<li class="menu__item">
+								<a href="about-us.html" class="menu__link">Про нас</a>
+							</li>
+							<li class="menu__item">
+								<a href="comments.html" class="menu__link">Відгуки</a>
+							</li>
+							<li class="menu__item">
+								<a href="contacts.html" class="menu__link mobnone">Контакти</a>
+							</li>
+							<div class="menu__socials">
+								<a href="https://www.instagram.com/vashzubnoy?igsh=aDlsbHBreWdycWoz" class="menu__social" target="_blank"><img src="img/icon-insta.svg" alt="icon-insta" />
+								</a>
+								<a href="https://www.facebook.com/vashzubnoy/" class="menu__social" target="_blank"><img src="img/icon-fb.svg" alt="icon-fb" />
+								</a>
+								<a href="https://youtube.com/channel/UCAK7_2w2s8Q_t5WuHPyUJbA?si=RNLwjJZAgc7TawgA" class="menu__social" target="_blank"><img src="img/icon-youtube.svg" alt="icon-youtube" />
+								</a>
+							</div>
+						</ul>
+						<div class="menu__buttons">
+							<a href="" data-popup="#popupconsult" class="menu__btn btn-consult white">Записатись на консультацію</a>
+							<a href="tel:+380631471778" class="menu__btn btn-consult rad">Невідкладна допомога</a>
+						</div>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a href="tel:+380631471778" class="actions-header__call btn-call">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="actions-header__icon">
+							<path d="M3.21778 6.92444C4.49778 9.44 6.56 11.4933 9.07556 12.7822L11.0311 10.8267C11.2711 10.5867 11.6267 10.5067 11.9378 10.6133C12.9333 10.9422 14.0089 11.12 15.1111 11.12C15.6 11.12 16 11.52 16 12.0089V15.1111C16 15.6 15.6 16 15.1111 16C6.76444 16 0 9.23556 0 0.888889C0 0.4 0.4 0 0.888889 0H4C4.48889 0 4.88889 0.4 4.88889 0.888889C4.88889 2 5.06667 3.06667 5.39556 4.06222C5.49333 4.37333 5.42222 4.72 5.17333 4.96889L3.21778 6.92444Z" fill="#006E8B" />
+						</svg>
+						<span class="actions-header__text">Зателефонувати</span>
+					</a>
+					<div class="actions-header__language language">
+						<div class="language-select">
+							<button class="language-select__toggle">
+								<span class="language-short">Укр</span>
+								<img src="img/icon-arrowdown.svg" alt="" class="menu__icon arrow" />
+							</button>
+
+							<ul class="language-select__dropdown">
+								<li data-short="Укр">Українська</li>
+								<li data-short="Рус">Русский</li>
+								<li data-short="Eng">English</li>
+							</ul>
+						</div>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__title h1">
+						Лікуємо зуби без болю <br />
+						та страху
+					</div>
+					<div class="hero__content content-hero">
+						<img src="img/hero-home.webp" alt="hero-banner" class="content-hero__banner" />
+						<div class="content-hero__info info-hero">
+							<!--Класс dark-bg замінює юлюр на темніший-->
+							<p class="info-hero__text p">
+								Кінцева сума завжди узгоджується після діагностики та
+								складання персонального плану лікування.
+							</p>
+							<a href="" data-popup="#popupconsult" class="info-hero__btn btn-consult yellow">Записатись на консультацію</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="wrapper-box">
+				<section class="price">
+					<div class="price__container">
+						<div data-spollers class="spollers price__spollers price-spollers">
+							<details data-open class="spollers__item price-spollers__item">
+								<summary class="spollers__title price-spollers__title h2">
+									Обстеження
+								</summary>
+								<div class="spollers__body price-spollers__body body-price-spollers">
+									<div class="body-price-spollers__items">
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Консультація головного лікаря, лікаря вищої категорії,
+												Біда Андрія Валерійовича з складанням плану лікування
+											</p>
+											<p class="body-price-spollers__pricee">1000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Консультація стоматолога-ортопеда зі складанням плану
+												лікування
+											</p>
+											<p class="body-price-spollers__pricee">600 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Консультація гнатолога
+											</p>
+											<p class="body-price-spollers__pricee">800 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Консультація пародонтолога
+											</p>
+											<p class="body-price-spollers__pricee">800 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Консультація профільного спеціаліста
+												(стоматолога-терапевта, ортодонта, дит. стоматолога)
+											</p>
+											<p class="body-price-spollers__pricee">500 грн</p>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item price-spollers__item">
+								<summary class="spollers__title price-spollers__title h2">
+									Профілактика
+								</summary>
+								<div class="spollers__body price-spollers__body body-price-spollers">
+									<div class="body-price-spollers__items">
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Професійна гігієна порожнини рота (Єврогігієна)
+											</p>
+											<p class="body-price-spollers__pricee">2400 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Гігієна ортодонтична
+											</p>
+											<p class="body-price-spollers__pricee">1500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Заповнення пародонтальної карти + консультація
+												пародонтолога
+											</p>
+											<p class="body-price-spollers__pricee">1700 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Відбілювання зубів Beyond (за дві щелепи)
+											</p>
+											<p class="body-price-spollers__pricee">7000 грн</p>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item price-spollers__item">
+								<summary class="spollers__title price-spollers__title h2">
+									Лікування карієсу
+								</summary>
+								<div class="spollers__body price-spollers__body body-price-spollers">
+									<div class="body-price-spollers__items">
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">Пломба від</p>
+											<p class="body-price-spollers__pricee">2000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Художня реставрація зуба від
+											</p>
+											<p class="body-price-spollers__pricee">3500 грн</p>
+										</div>
+									</div>
+									<div class="body-price-spollers__items">
+										<h3 class="body-price-spollers__title">Додатково</h3>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Анестезія інфільтраційна/провідникова
+											</p>
+											<p class="body-price-spollers__pricee">400 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Анестезія інтралігаментарна
+											</p>
+											<p class="body-price-spollers__pricee">500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Покриття фтор-лаком реставрації
+											</p>
+											<p class="body-price-spollers__pricee">200 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Встановлення коффедраму
+											</p>
+											<p class="body-price-spollers__pricee">300 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Прицільний знімок
+											</p>
+											<p class="body-price-spollers__pricee">150 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">Оптрагейт</p>
+											<p class="body-price-spollers__pricee">250 грн</p>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item price-spollers__item">
+								<summary class="spollers__title price-spollers__title h2">
+									Дитяча стоматологія
+								</summary>
+								<div class="spollers__body price-spollers__body body-price-spollers">
+									<div class="body-price-spollers__items">
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Дитяча профгігієна (змінний прикус)
+											</p>
+											<p class="body-price-spollers__pricee">1000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Дитяча профгігієна (молочний прикус)
+											</p>
+											<p class="body-price-spollers__pricee">800 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Професійна гігієна порожнини рота (Єврогігієна)
+											</p>
+											<p class="body-price-spollers__pricee">2400 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Пломба постійна (молочний зуб)
+											</p>
+											<p class="body-price-spollers__pricee">1000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Пломбування кореневих каналів (молочні моляри)
+											</p>
+											<p class="body-price-spollers__pricee">1800 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Пломбування кореневих каналів (молочні різці, ікла)
+											</p>
+											<p class="body-price-spollers__pricee">1300 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Первинна допомога при гострому болю (молочний зуб)
+											</p>
+											<p class="body-price-spollers__pricee">600 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Дитяча металева коронка
+											</p>
+											<p class="body-price-spollers__pricee">1500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Видалення молочного зуба (фізіологічна
+												зміна/ускладнений карієс)
+											</p>
+											<p class="body-price-spollers__pricee">400/700 грн</p>
+										</div>
+									</div>
+									<div class="body-price-spollers__items">
+										<h3 class="body-price-spollers__title">Додатково</h3>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Адаптація до крісла
+											</p>
+											<p class="body-price-spollers__pricee">500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">Оптрагейт</p>
+											<p class="body-price-spollers__pricee">250 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Встановлення коффедраму
+											</p>
+											<p class="body-price-spollers__pricee">300 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Анестезія інфільтраційна
+											</p>
+											<p class="body-price-spollers__pricee">400 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Прицільний знімок
+											</p>
+											<p class="body-price-spollers__pricee">150 грн</p>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item price-spollers__item">
+								<summary class="spollers__title price-spollers__title h2">
+									Хірургія
+								</summary>
+								<div class="spollers__body price-spollers__body body-price-spollers">
+									<div class="body-price-spollers__items">
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Видалення зуба просте/головний лікар Біда А.В.
+											</p>
+											<p class="body-price-spollers__pricee">1000/1400 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Видалення зуба складне/головний лікар Біда А.В.
+											</p>
+											<p class="body-price-spollers__pricee">2000/2500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Видалення зуба атипове від
+											</p>
+											<p class="body-price-spollers__pricee">3000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Пластика вуздечок (губи, язик)
+											</p>
+											<p class="body-price-spollers__pricee">5000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Сінусліфтинг від
+											</p>
+											<p class="body-price-spollers__pricee">20 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Кісткова пластина від
+											</p>
+											<p class="body-price-spollers__pricee">4500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Хірургічне лікування рецессій від
+											</p>
+											<p class="body-price-spollers__pricee">4000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Встановлення дентального імплантату NeoBitech (П.
+												Корея) від
+											</p>
+											<p class="body-price-spollers__pricee">16 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Дентальний імплантат Straumann (Швейцарія) від
+											</p>
+											<p class="body-price-spollers__pricee">28 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Встановлення формувача ясен
+											</p>
+											<p class="body-price-spollers__pricee">2600 грн</p>
+										</div>
+									</div>
+									<div class="body-price-spollers__items">
+										<h3 class="body-price-spollers__title">Наркоз</h3>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Загальний наркоз (від 30 хв до 1 год)
+											</p>
+											<p class="body-price-spollers__pricee">6000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Загальний наркоз (до 30 хв)
+											</p>
+											<p class="body-price-spollers__pricee">3500 грн</p>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item price-spollers__item">
+								<summary class="spollers__title price-spollers__title h2">
+									Брекет-системи
+								</summary>
+								<div class="spollers__body price-spollers__body body-price-spollers">
+									<div class="body-price-spollers__items">
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Металева (за одну щелепу)
+											</p>
+											<p class="body-price-spollers__pricee">20 700 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Керамічна (за одну щелепу)
+											</p>
+											<p class="body-price-spollers__pricee">30 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Сапфірова (за одну щелепу)
+											</p>
+											<p class="body-price-spollers__pricee">37 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Самолігуюча металева (за одну щелепу)
+											</p>
+											<p class="body-price-spollers__pricee">31 100 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Самолігуюча керамічна (за одну щелепу)
+											</p>
+											<p class="body-price-spollers__pricee">38 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Елайнери (кейс) від
+											</p>
+											<p class="body-price-spollers__pricee">80 000 грн</p>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item price-spollers__item">
+								<summary class="spollers__title price-spollers__title h2">
+									Ендодонтичне лікування
+								</summary>
+								<div class="spollers__body price-spollers__body body-price-spollers">
+									<div class="body-price-spollers__items">
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Лікування одноканального зуба від
+											</p>
+											<p class="body-price-spollers__pricee">1400 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Лікування двоканального зуба від
+											</p>
+											<p class="body-price-spollers__pricee">1800 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Лікування трьохканального зуба від
+											</p>
+											<p class="body-price-spollers__pricee">2500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Лікування чотирьохканального зуба від
+											</p>
+											<p class="body-price-spollers__pricee">3000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Вилучення стороннього тіла з кореневого каналу
+											</p>
+											<p class="body-price-spollers__pricee">4000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Тимчасове пломбування одного КК від
+											</p>
+											<p class="body-price-spollers__pricee">500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Розпломбування одного КК з використанням мікроскопа
+												від
+											</p>
+											<p class="body-price-spollers__pricee">1000/1500 грн</p>
+										</div>
+									</div>
+									<div class="body-price-spollers__items">
+										<h3 class="body-price-spollers__title">Додатково</h3>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Прицільний знімок
+											</p>
+											<p class="body-price-spollers__pricee">150 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Анестезія інфільтраційна/провідникова
+											</p>
+											<p class="body-price-spollers__pricee">400 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Анестезія інтралігаментарна
+											</p>
+											<p class="body-price-spollers__pricee">500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Встановлення коффедраму
+											</p>
+											<p class="body-price-spollers__pricee">300 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">Оптрагейт</p>
+											<p class="body-price-spollers__pricee">250 грн</p>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item price-spollers__item">
+								<summary class="spollers__title price-spollers__title h2">
+									Ортопедичні реставрації
+								</summary>
+								<div class="spollers__body price-spollers__body body-price-spollers">
+									<div class="body-price-spollers__items">
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">Вінір від</p>
+											<p class="body-price-spollers__pricee">12 500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Вінір на рефракторі (ультратонкий)
+											</p>
+											<p class="body-price-spollers__pricee">20 500 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Керамічна коронка/накладка від
+											</p>
+											<p class="body-price-spollers__pricee">11 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Керамічна коронка/накладка ART від
+											</p>
+											<p class="body-price-spollers__pricee">15 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Цирконієва коронка на зубі від
+											</p>
+											<p class="body-price-spollers__pricee">11 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Цирконієва коронка на імпланті
+											</p>
+											<p class="body-price-spollers__pricee">11 600 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Цирконієва коронка класу ART на зубі від
+											</p>
+											<p class="body-price-spollers__pricee">15 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Цирконієва коронка класу ART на імпланті від
+											</p>
+											<p class="body-price-spollers__pricee">16 000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">Абатмент від</p>
+											<p class="body-price-spollers__pricee">5000 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Тимчасова коронка від
+											</p>
+											<p class="body-price-spollers__pricee">2800 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Частковий/повний знімний протез ART від
+											</p>
+											<p class="body-price-spollers__pricee">16 700 грн</p>
+										</div>
+										<div class="body-price-spollers__item">
+											<p class="body-price-spollers__text">
+												Бюгельний знімний протез
+											</p>
+											<p class="body-price-spollers__pricee">23 000 грн</p>
+										</div>
+									</div>
+								</div>
+							</details>
+						</div>
+					</div>
+				</section>
+				<section class="treatment">
+					<div class="treatment__container">
+						<img src="img/image-treatment.webp" alt="image" class="treatment__banner" />
+						<img src="img/image-treatment-mob.webp" alt="image" class="treatment__banner-mob" style="height: 354px" />
+						<h2 data-da=".text-treatment, 768" class="treatment__title h2">
+							Дізнайтесь <br class="pcnone" />
+							вартість лікування саме для вас
+						</h2>
+						<div class="treatment__info info-treatment treatment__info-price">
+							<!--Класс dark-bg замінює юлюр на темніший-->
+							<div class="info-treatment__text text-treatment">
+								<p class="info-treatment__description">
+									Перший візит — це знайомство, <br class="pcnone" />
+									а не зобов’язання. <br class="mobnone" />Ми вислухаємо,
+									проведемо діагностику <br class="pcnone" />
+									і допоможемо вибудувати <br class="pcnone" />
+									найкраще рішення саме для вас
+								</p>
+							</div>
+							<a href="" data-popup="#popupconsult" class="info-treatment__btn btn-consult">Записатись зараз</a>
+						</div>
+					</div>
+				</section>
+				<div class="space"></div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__item item-footer footer-adapt">
+					<a href="#" class="item-footer__logo"><img src="img/logo.webp" alt="logo" />
+					</a>
+					<div class="item-footer__bottom">
+						<div class="item-footer__socials">
+							<a href="https://www.instagram.com/vashzubnoy?igsh=aDlsbHBreWdycWoz" class="item-footer__social" target="_blank"><img src="img/icon-insta.svg" alt="icon-insta" />
+							</a>
+							<a href="https://www.facebook.com/vashzubnoy/" class="item-footer__social" target="_blank"><img src="img/icon-fb.svg" alt="icon-fb" />
+							</a>
+							<a href="https://youtube.com/channel/UCAK7_2w2s8Q_t5WuHPyUJbA?si=RNLwjJZAgc7TawgA" class="item-footer__social" target="_blank"><img src="img/icon-youtube.svg" alt="icon-youtube" />
+							</a>
+						</div>
+						<a href="https://mriya-digital.com/" class="item-footer__maked">Made by MRiЯ Digital</a>
+					</div>
+				</div>
+				<div class="footer__item item-footer mobnone">
+					<h5 class="item-footer__title">Меню</h5>
+					<ul class="item-footer__list">
+						<li class="item-footer__li">
+							<a href="#" class="item-footer__link">Ціни</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="#" class="item-footer__link">Про нас</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="#" class="item-footer__link">Відгуки</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item item-footer mobnone">
+					<h5 class="item-footer__title">Послуги</h5>
+					<ul class="item-footer__lists">
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Імплантація</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Пародонтологія</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Протезування</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Професійна гігієна</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Лікування зубів</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Лікування зубів</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Вініри</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Відбілювання зубів</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Виправлення прикусу</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Дитяча стоматологія</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Гнатологія</a>
+						</li>
+						<li class="item-footer__li">
+							<a href="" class="item-footer__link">Видалення зубів</a>
+						</li>
+					</ul>
+				</div>
+				<div data-da=".footer-adapt, 768, 1" class="footer__item item-footer item-footer__contacts">
+					<h5 class="item-footer__title">Контакти</h5>
+					<div class="item-footer__infos">
+						<div class="item-footer__info">
+							<a href="tel:+380487080133" class="item-footer__phone">+38 (048) 708 01 33</a>
+							<div class="item-footer__adress">
+								<p class="item-footer__p">
+									Одеса, Люстдорфська дорога 55/2, ЖК «Альтаїр», 7 секція,
+									<br class="pcnone" />
+									код 223
+								</p>
+								<p class="item-footer__p">Пн - Нд з 9:00 до 19:00</p>
+							</div>
+						</div>
+						<div class="item-footer__info">
+							<a href="tel:+380631471778" class="item-footer__phone">+38 (063) 147 17 78</a>
+							<div class="item-footer__adress">
+								<p class="item-footer__p">
+									Одеса, Генуезька 3А, ЖК «26-я Перлина», офіс 22
+								</p>
+								<p class="item-footer__p">Пн - Пт з 10:00 до 18:00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!--Попап Пакет «В очікуванні дива»-->
+	<div id="popuppacket" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-content__packet">
+				<button data-close type="button" class="popup__close">
+					<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+					</svg>
+				</button>
+				<div class="popup__text popup-packet">
+					<div class="popup-packet__top top-packet">
+						<div class="top-packet__header">
+							<p class="top-packet__znak">“</p>
+							<div class="top-packet__info">
+								<h3 class="top-packet__title">Пакет «В очікуванні дива»</h3>
+								<p class="top-packet__decription">
+									Спеціальна програма стоматологічного супроводу для жінок, які
+									планують вагітність або вже чекають на малюка. Мета пакета —
+									зберегти здоров’я зубів <br class="pcnone" />
+									і ясен, уникнути запалень, болю <br class="pcnone" />
+									та ризиків під час вагітності, а також забезпечити комфорт
+									майбутній мамі <br class="pcnone" />
+									та безпеку <br class="mobnone" />
+									для дитини.
+								</p>
+							</div>
+						</div>
+						<div class="top-packet__body">
+							<h5 class="top-packet__subtitle">Що входить у пакет:</h5>
+							<ul class="top-packet__list">
+								<li class="top-packet__li">
+									Консультація головного лікаря — комплексна <br class="pcnone" />
+									оцінка стану зубів
+									<br class="mobnone" />
+									і ясен до або під час вагітності, <br class="pcnone" />
+									індивідуальні рекомендації та план лікування.
+								</li>
+								<li class="top-packet__li">
+									Консультація стоматолога-терапевта — планове лікування з
+									використанням безпечних матеріалів <br class="pcnone" />
+									і щадних методик.
+								</li>
+								<li class="top-packet__li">
+									Регулярні профілактичні огляди — один раз <br class="pcnone" />
+									на три місяці (4 рази на рік) для контролю <br class="pcnone" />
+									стану порожнини рота та своєчасного <br class="pcnone" />
+									усунення можливих проблем.
+								</li>
+								<li class="top-packet__li">
+									Дві процедури професійної гігієни — <br class="pcnone" />
+									з ремінералізацією емалі
+									<br class="mobnone" />
+									для профілактики карієсу,<br class="pcnone" />
+									гінгівіту та підтримання свіжого дихання.
+								</li>
+								<li class="top-packet__li">
+									Подарунковий набір для догляду — після кожної
+									<br class="pcnone" />
+									гігієни пацієнтка
+									<br class="mobnone" />
+									отримує нову зубну щітку, <br class="pcnone" />
+									йоржик та ополіскувач.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="popup-packet__bot bot-packet">
+						<p class="bot-packet__price">Ціна 10 000 грн (економія 5300 грн)</p>
+						<a href="" data-popup="#popupconsult-two" class="bot-packet__btn btn-consult">Отримати консультацію</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Попап Пакет «Сімейний»-->
+	<div id="popuppacket2" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-content__packet">
+				<button data-close type="button" class="popup__close">
+					<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+					</svg>
+				</button>
+				<div class="popup__text popup-packet">
+					<div class="popup-packet__top top-packet">
+						<div class="top-packet__header">
+							<p class="top-packet__znak">“</p>
+							<div class="top-packet__info">
+								<h3 class="top-packet__title">Пакет «Сімейний»</h3>
+								<p class="top-packet__decription">
+									Комплексна турбота про усмішки <br class="pcnone" />
+									всієї родини
+								</p>
+							</div>
+						</div>
+						<div class="top-packet__body">
+							<h5 class="top-packet__subtitle">Що входить у пакет:</h5>
+							<ul class="top-packet__list">
+								<li class="top-packet__li">
+									Регулярне спостереження у стоматолога: два профілактичні огляди
+									<br class="mobnone" />
+									на рік для кожного члена <br class="pcnone" />
+									сім’ї (мама, тато та двоє дітей).
+								</li>
+								<li class="top-packet__li">
+									Професійна гігієна для дорослих: по дві процедури
+									<br class="pcnone" />
+									на рік для кожного <br class="mobnone" />
+									(усього 4 процедури). Після <br class="pcnone" />
+									кожного візиту — нова зубна щітка в подарунок.
+								</li>
+								<li class="top-packet__li">
+									Дитяча гігієна: дві професійні чистки для однієї
+									<br class="pcnone" />
+									дитини
+									<br class="mobnone" />
+									на рік. Кожен візит супроводжується <br class="pcnone" />
+									приємним подарунком —
+									<br class="mobnone" />
+									дитячою щіткою.
+								</li>
+								<li class="top-packet__li">
+									Адаптаційні візити до дитячого стоматолога: дві
+									<br class="pcnone" />
+									зустрічі для знайомства <br class="mobnone" />
+									з лікарем і комфортного звикання до кабінету (особливо важливо,
+									якщо <br class="mobnone" /><br class="pcnone" />
+									дитина боїться стоматолога або ще ніколи <br class="pcnone" />
+									не лікувалася).
+								</li>
+								<li class="top-packet__li">
+									Консультації головного лікаря: індивідуальний план комплексного
+									лікування для кожного члена <br class="pcnone" />
+									родини* <br class="mobnone" />
+									*Для дітей до 12 років консультацію <br class="pcnone" />
+									проводить дитячий стоматолог.
+								</li>
+								<li class="top-packet__li">
+									Додатково: чотири консультації для бабусь і дідусів
+									<br class="pcnone" />
+									із детальним оглядом, рекомендаціями щодо профілактики та
+									лікування на ранніх стадіях.
+								</li>
+								<li class="top-packet__li">
+									Документація: видаємо довідки для шкільних <br class="pcnone" />
+									і дошкільних закладів.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="popup-packet__bot bot-packet">
+						<p class="bot-packet__price">Ціна 10 000 грн (економія 5300 грн)</p>
+						<a href="" data-popup="#popupconsult-two" class="bot-packet__btn btn-consult">Отримати консультацію</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Попап Запис на прийом-->
+	<div id="popupconsult" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-content__consult">
+				<button data-close type="button" class="popup__close popup__close-consult">
+					<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+					</svg>
+				</button>
+				<div class="popup__text text-popup">
+					<div class="text-popup__header">
+						<h2 class="text-popup__title h2">Запис на прийом</h2>
+						<p class="text-popup__subtitle">
+							Заповніть данні нижче і наш адміністратор звʼяжеться з вами
+							найближчим часом
+						</p>
+					</div>
+					<form action="" class="text-popup__form form-popup" id="contactForm">
+						<input type="text" class="form-popup__input" placeholder="Ваше імʼя" />
+						<input type="text" class="form-popup__input" placeholder="Ваш номер телефону" id="phone" />
+						<button type="submit" class="form-popup__send">
+							Відправити заявку
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Попап Отримати консультацію-->
+	<div id="popupconsult-two" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-content__consult">
+				<button data-close type="button" class="popup__close popup__close-consult">
+					<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+						<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+					</svg>
+				</button>
+				<div class="popup__text text-popup">
+					<div class="text-popup__header">
+						<h2 class="text-popup__title h2">Отримати консультацію</h2>
+						<p class="text-popup__subtitle">
+							Заповніть данні нижче і наш адміністратор звʼяжеться з вами
+							найближчим часом
+						</p>
+					</div>
+					<form action="" class="text-popup__form form-popup" id="contactForm">
+						<input type="text" class="form-popup__input" placeholder="Ваше імʼя" />
+						<input type="text" class="form-popup__input" placeholder="Ваш номер телефону" id="phone" />
+						<button type="submit" class="form-popup__send">
+							Відправити заявку
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20251210152929"></script>
+
+</body>
+
+</html>
