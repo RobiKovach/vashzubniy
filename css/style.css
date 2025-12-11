@@ -2279,8 +2279,7 @@ html {
     border-radius: 25px 25px 0 0
   }
   .wrapper-box {
-    max-width: -webkit-max-content;
-    max-width: max-content
+    max-width: 100%
   }
   .space {
     margin-top: 54px
@@ -2603,8 +2602,12 @@ html {
     left: 20px;
     align-items: center
   }
+  .treatment__info-contacts {
+    bottom: 30px
+  }
   .treatment__info-price {
-    padding: 18px 20px 28px
+    padding: 18px 20px 28px;
+    bottom: 20px
   }
   .treatment__info-about {
     padding: 18px 23px 20px
