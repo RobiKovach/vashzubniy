@@ -2117,7 +2117,8 @@ html {
   .menu__list {
     flex-direction: column;
     align-items: flex-start;
-    row-gap: 36px
+    row-gap: 36px;
+    margin-bottom: 40px
   }
   .menu__link {
     font-size: 30px;
@@ -2167,7 +2168,7 @@ html {
     -moz-column-gap: 20px;
     column-gap: 20px;
     position: absolute;
-    bottom: 36px;
+    bottom: 0;
     right: 0
   }
   .actions-header__call {
