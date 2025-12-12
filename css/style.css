@@ -815,6 +815,9 @@ html {
 .left-trust__title {
   width: 459px
 }
+.left-trust__title-implant {
+  width: 560px
+}
 .left-trust__card {
   display: flex;
   flex-direction: column;
@@ -823,6 +826,9 @@ html {
   background: #fff;
   box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
   padding: 32px
+}
+.left-trust__card-implant {
+  row-gap: 21px
 }
 .left-trust__card-about {
   row-gap: 25px;
@@ -974,7 +980,16 @@ html {
   align-items: flex-end;
   justify-content: space-between
 }
+.full-cycle__titles {
+  width: 728px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px
+}
 .full-cycle__title {
+  width: 728px
+}
+.full-cycle__subtitle {
   width: 728px
 }
 .full-cycle__btn {
@@ -1018,6 +1033,17 @@ html {
   display: flex;
   flex-direction: column;
   row-gap: 16px
+}
+.slide-full-cycle__text-implant {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 16px;
+  background-color: #fff;
+  padding: 37px 26px 42px;
+  border-radius: 0 0 20px 20px;
+  height: 195px;
+  margin-bottom: 5px
 }
 .slide-full-cycle__title {
   font-size: 24px;
@@ -1984,6 +2010,96 @@ html {
   line-height: 26px;
   color: #006e8b
 }
+.video-insctukciya__container {
+  margin-top: 83px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px
+}
+.video-insctukciya__video {
+  border-radius: 20px;
+  width: 100%;
+  height: 582px;
+  overflow: hidden
+}
+.video-insctukciya__video-frame {
+  width: 100%;
+  height: 100%
+}
+.header-section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between
+}
+.header-section__title {
+  width: 713px
+}
+.header-section__p {
+  width: 453px
+}
+.result__container {
+  margin-top: 83px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px
+}
+.result__slider {
+  position: relative
+}
+.result__slide {
+  border-radius: 20px;
+  overflow: hidden
+}
+.slide-result__before {
+  position: relative
+}
+.slide-result__after {
+  position: relative
+}
+.result-before__img {
+  width: 411px;
+  height: 179px
+}
+.result-before__label {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 8px 14px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  text-shadow: 0 0 8px rgba(0,0,0,.25);
+  border-radius: 12px;
+  background: rgba(166,166,166,.6)
+}
+.result-after__img {
+  width: 411px;
+  height: 179px
+}
+.result-after__label {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 8px 14px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  text-shadow: 0 0 8px rgba(0,0,0,.25);
+  border-radius: 12px;
+  background: rgba(166,166,166,.6)
+}
+.result-swiper-button-prev {
+  position: absolute;
+  left: 0;
+  top: 42%
+}
+.result-swiper-button-next {
+  position: absolute;
+  right: 0;
+  top: 42%
+}
 .swiper {
   overflow: hidden
 }
@@ -2330,8 +2446,14 @@ html {
   .left-trust__title {
     width: 289px
   }
+  .left-trust__title-implant {
+    width: 335px
+  }
   .left-trust__card {
     padding: 24px 15px 21px 22px;
+    row-gap: 22px
+  }
+  .left-trust__card-implant {
     row-gap: 22px
   }
   .left-trust__card-about {
@@ -2435,6 +2557,16 @@ html {
     margin-top: 62px;
     row-gap: 22px
   }
+  .full-cycle__titles {
+    row-gap: 8px;
+    width: 100%
+  }
+  .full-cycle__title {
+    width: 100%
+  }
+  .full-cycle__subtitle {
+    width: 100%
+  }
   .full-cycle__mobbtn {
     display: flex;
     align-items: center;
@@ -2457,6 +2589,11 @@ html {
   }
   .slide-full-cycle__text {
     row-gap: 8px
+  }
+  .slide-full-cycle__text-implant {
+    row-gap: 8px;
+    padding: 17px 20px 14px;
+    height: 167px
   }
   .slide-full-cycle__title {
     font-size: 20px;
@@ -2951,6 +3088,51 @@ html {
   .body-price-spollers__pricee {
     font-size: 16px;
     line-height: 24px
+  }
+  .video-insctukciya__container {
+    margin-top: 30px;
+    row-gap: 22px
+  }
+  .video-insctukciya__video {
+    border-radius: 12px;
+    height: 255px
+  }
+  .header-section {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 8px
+  }
+  .header-section__title {
+    width: 100%
+  }
+  .header-section__p {
+    width: 100%
+  }
+  .result__container {
+    margin-top: 30px;
+    row-gap: 22px
+  }
+  .result-before__img {
+    width: 295px;
+    height: 120px
+  }
+  .result-before__label {
+    font-size: 12px;
+    line-height: normal;
+    border-radius: 8px;
+    top: 12px;
+    left: 12px
+  }
+  .result-after__img {
+    width: 295px;
+    height: 120px
+  }
+  .result-after__label {
+    font-size: 12px;
+    line-height: normal;
+    border-radius: 8px;
+    top: 12px;
+    left: 12px
   }
 }
 @media (max-width:47.99875em)and (any-hover:none) {
