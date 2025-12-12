@@ -2100,6 +2100,40 @@ html {
   right: 0;
   top: 42%
 }
+.post__container {
+  padding-top: 83px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px
+}
+.post__content {
+  padding: 40px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px
+}
+.content-post__title {
+  width: 628px
+}
+.content-post__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px
+}
+.content-post__paragraph {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px
+}
+.content-post__imagee {
+  border-radius: 20px 30px 20px 20px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.2);
+  width: 100%
+}
 .swiper {
   overflow: hidden
 }
@@ -3133,6 +3167,28 @@ html {
     border-radius: 8px;
     top: 12px;
     left: 12px
+  }
+  .post__container {
+    padding-top: 30px;
+    row-gap: 24px
+  }
+  .post__content {
+    row-gap: 24px;
+    padding: 24px 16px
+  }
+  .content-post__title {
+    width: 100%
+  }
+  .content-post__text {
+    row-gap: 24px
+  }
+  .content-post__paragraph {
+    font-size: 16px;
+    line-height: 20px
+  }
+  .content-post__imagee {
+    border-radius: 12px;
+    height: 201px
   }
 }
 @media (max-width:47.99875em)and (any-hover:none) {
