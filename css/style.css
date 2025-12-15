@@ -1995,7 +1995,7 @@ html {
 }
 .body-price-spollers__item:last-child {
   border-bottom: none;
-  padding-bottom: 0
+  padding-bottom: 28px
 }
 .body-price-spollers__text {
   width: 837px;
