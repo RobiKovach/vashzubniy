@@ -258,7 +258,7 @@ body::after {
   top: 50%;
   background-color: #16afd7;
   height: 4px;
-  width: 35px;
+  width: 25px;
   transition: -webkit-transform .5s ease 0s;
   transition: transform .5s ease 0s;
   transition: transform .5s ease 0s,-webkit-transform .5s ease 0s
@@ -1953,7 +1953,7 @@ html {
   row-gap: 28px
 }
 .price-spollers__item {
-  padding: 40px 50px;
+  padding: 30px 50px;
   border-radius: 20px;
   background: #fff;
   box-shadow: 0 0 8px 0 rgba(0,0,0,.2)
@@ -1963,7 +1963,8 @@ html {
   padding: 0;
   border-radius: 0;
   outline: 0;
-  overflow: hidden
+  overflow: hidden;
+  font-size: 32px
 }
 .price-spollers__body {
   border: none;
