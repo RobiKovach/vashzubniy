@@ -1950,10 +1950,10 @@ html {
 .price__spollers {
   display: flex;
   flex-direction: column;
-  row-gap: 28px
+  row-gap: 20px
 }
 .price-spollers__item {
-  padding: 30px 50px;
+  padding: 20px 50px;
   border-radius: 20px;
   background: #fff;
   box-shadow: 0 0 8px 0 rgba(0,0,0,.2)
